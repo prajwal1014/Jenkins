@@ -4,7 +4,7 @@ pipeline{
         maven 'maven'
     }
     stages{
-        stage('with using env'){
+        stage('with usingnv'){
             steps {
                 echo "$JOB_NAME"
                 echo "$BUILD_ID"
